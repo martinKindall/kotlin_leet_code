@@ -1,3 +1,4 @@
+import easy.FindNUniqueIntSum0
 import java.lang.StringBuilder
 
 fun main() {
@@ -22,10 +23,12 @@ fun main() {
 //    someLazyObject.showDefault()
 //    someLazyObject.show()
 
-    val sealedEample: SealedClassExample = SealedClassExample.SomeA
-    val sealedExample2: SealedClassExample = SealedClassExample.B
+//    val sealedEample: SealedClassExample = SealedClassExample.SomeA
+//    val sealedExample2: SealedClassExample = SealedClassExample.B
+//
+//    printSealedClasses(listOf(sealedEample, sealedExample2))
 
-    printSealedClasses(listOf(sealedEample, sealedExample2))
+    FindNUniqueIntSum0().sumZero(14).forEach { println(it) }
 }
 
 fun printSealedClasses(sealedObjects: List<SealedClassExample>) {
